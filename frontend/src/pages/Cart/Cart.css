@@ -104,3 +104,34 @@
         justify-content: start;
     }
 }
+
+
+.quantity_selector {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.quantity_selector .btn {
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  background: #f0f0f0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quantity_selector .btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.quantity_selector .quantity {
+  width: 30px;
+  text-align: center;
+  font-size: 18px;
+}
