@@ -150,3 +150,20 @@ background-color: #fff4f2;
         display: none;
     } 
 }
+
+
+.navbar-menu a,
+.navbar-menu .active {
+  display: inline-block;
+  transition: transform 0.2s ease-in-out;
+}
+
+.navbar-menu a:hover,
+.navbar-menu .active:hover {
+  transform: scale(1.1); 
+}
+
+.navbar-menu .active {
+  font-weight: bold;
+  border-bottom: 2px solid #ff6347; /* highlight active item */
+}
